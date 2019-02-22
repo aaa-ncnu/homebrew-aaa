@@ -2,9 +2,9 @@
 class TelepresenceLauncher < Formula
   desc "telepresence-launcher provides a guided interface to replace a Kubernetes deployment in an established K8s context in a consistent manner using Telepresence."
   homepage "https://github.com/aaa-ncnu/telepresence-launcher"
-  url "https://github.com/aaa-ncnu/telepresence-launcher/releases/download/v0.2.0/telepresence-launcher_0.2.0_MacOS_x86_64.tar.gz"
-  version "0.2.0"
-  sha256 "7c3e5e84af8f73a8b93cfded25d69007d435375cd130ae7144a8b0866e1d69c3"
+  url "https://github.com/aaa-ncnu/telepresence-launcher/releases/download/v0.2.1/telepresence-launcher_0.2.1_MacOS_x86_64.tar.gz"
+  version "0.2.1"
+  sha256 "0bcc3fe9302bd3bedd4b5c1c55538c4977c72b7d76c727e39fb2be0a7c5ac8b4"
 
   def install
     bin.install "telepresence-launcher"
